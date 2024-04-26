@@ -1,0 +1,215 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-style:solid ;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(218, 218, 218);
+}
+.left-section{
+display: flex;
+align-items: center;
+}
+.hamburger-menu{
+    height: 24px;
+    margin: 0px 15px;
+    cursor: pointer;
+}
+.youtube-logo{
+    height: 24px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.middle-section{
+flex: 1;
+margin-left: 70px;
+margin-right:35px;
+max-width: 500px;
+display: flex;
+align-items: center;
+}
+.search-bar {
+    height: 34px;
+    flex: 1;
+    padding-left: 10px;
+    font-size: 16px;
+    border: solid;
+    border-color: rgb(158, 156, 156);
+    border-width: 1px;
+    border-radius: 2px;
+    box-shadow: inset 2px 1px 3px rgba(0,0,0,0.2);
+    width: 0;
+  }
+.search-bar::placeholder{
+    font-size: 16px;
+}
+.search-icon-button{
+    width: 55px;
+    height: 37px;
+    border: solid;
+    border-color: rgb(158, 156, 156);
+    border-width: 1px;
+    margin-left: -1px;
+    cursor: pointer;
+    position: relative;
+}
+.search-icon-button .tooltip{
+    position: absolute;
+    background-color: rgb(105, 103, 103);
+    color: rgb(255, 255, 255);
+    padding: 2px 5px;
+    bottom: -30px;
+    right: -1px;
+    opacity: 0;
+    border-radius: 2px;
+    pointer-events: none; 
+    transition: opacity 0.2s;
+}
+.search-icon-button:hover .tooltip{
+    opacity: 1;
+}
+
+.search-icon{
+    height: 25px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+.voice-search-icon-button{
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.voice-search-icon-button .tooltip{
+    position: absolute;
+    background-color: rgb(105, 103, 103);
+    color: rgb(255, 255, 255);
+    padding: 2px 5px;
+    bottom: -30px;
+    right: -56px;
+    opacity: 0;
+    border-radius: 2px;
+    pointer-events: none; 
+    transition: opacity 0.2s;
+    white-space:nowrap;
+}
+.voice-search-icon-button:hover .tooltip{
+    opacity: 1;
+}
+.voice-search-icon{
+    height: 25px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+.right-section{
+width: 200px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-shrink: 0;
+}
+
+.upload-icon{
+    height:25px;
+    cursor: pointer;
+}
+.upload-icon-cont{
+    position: relative;
+}
+.upload-icon-cont .tooltip{
+    position: absolute;
+    background-color: rgb(105, 103, 103);
+    color: rgb(255, 255, 255);
+    padding: 2px 5px;
+    bottom: -35px;
+    right: -17px;
+    opacity: 0;
+    border-radius: 2px;
+    pointer-events: none; 
+    transition: opacity 0.2s;
+    white-space:nowrap;
+}
+.upload-icon-cont:hover .tooltip{
+    opacity: 1;
+}
+.youtube-apps-icon{
+    height: 25px;
+    cursor: pointer;
+}
+.youtube-apps-icon-cont{
+    position: relative;
+}
+.youtube-apps-icon-cont .tooltip{
+    position: absolute;
+    background-color: rgb(105, 103, 103);
+    color: rgb(255, 255, 255);
+    padding: 2px 5px;
+    bottom: -35px;
+    right: -45px;
+    opacity: 0;
+    border-radius: 2px;
+    pointer-events: none; 
+    transition: opacity 0.2s;
+    white-space:nowrap;
+}
+.youtube-apps-icon-cont:hover .tooltip{
+    opacity: 1;
+}
+.notification-container{
+    position: relative;
+}
+.notifications-icon-cont{
+    position: relative;
+}
+.notifications-icon-cont .tooltip{
+    position: absolute;
+    background-color: rgb(105, 103, 103);
+    color: rgb(255, 255, 255);
+    padding: 2px 5px;
+    bottom: -35px;
+    right: -35px;
+    opacity: 0;
+    border-radius: 2px;
+    pointer-events: none; 
+    transition: opacity 0.2s;
+    white-space:nowrap;
+}
+.notifications-icon-cont:hover .tooltip{
+    opacity: 1;
+}
+.notifications-icon{
+    height: 25px;
+    cursor: pointer;
+}
+.notification-count{
+    position: absolute;
+    top: -2px;
+    right: -3px;
+    font-size: 8px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(148, 3, 3);
+    padding: 3px;
+}
+.account-icon{
+    width: 26px;
+    height: 26px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
