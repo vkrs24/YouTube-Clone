@@ -8,9 +8,10 @@
 @media (max-width:450px) {
     
     body{
-      padding-left: 80px;
+      padding-left: 85px;
+      margin-left:25px;
       margin-right:25px;
-        background-color:red;
+       
   }
     .video-grid{
       grid-template-columns: 268px;
